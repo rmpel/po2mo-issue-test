@@ -1,0 +1,14 @@
+{
+    "name" : "po2mo-issue-test",
+    "version" : "0.0.1",
+    "description" : "A test project",
+    "license" : "EUPL-1.2",
+    "author" : "Acato",
+    "main" : "build/index.js",
+    "devDependencies" : {
+        "po2mo" : "2.0.5"
+    },
+    "scripts" : {
+        "make-mo" : "npx po2mo --config po2mo.json"
+    }
+}
